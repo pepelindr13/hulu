@@ -1,0 +1,57 @@
+body {
+  background-image: url(images/boxd.jpeg);
+}
+
+.login-btn {
+ width: 100%;
+ padding: 12px 0;
+ background-color: #929499;
+ border-radius: 5px;
+}
+
+form {
+  background-color: white;
+  width: 45vw;
+  margin:50px auto;
+  padding: 20px 50px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+p {
+  font-size: 14px;
+  color: grey;
+}
+
+
+.can-btn {
+  background: none;
+  border: none;
+}
+
+.can-btn img {
+  height: 50px;
+}
+
+nav  {
+  text-align: end;
+}
+/* .logindiv {
+  width: 100vw;
+} */
+
+.trial {
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+@media (max-width:475px) {
+  form {
+    width: 100%;
+    margin: 10px auto;
+    padding: 50px 20px;
+  }
+}
